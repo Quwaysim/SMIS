@@ -1,8 +1,8 @@
 package com.smis;
 
 
-import com.smis.models.Question;
-import com.smis.models.Users;
+import com.smis.data.Question;
+import com.smis.data.Users;
 
 import java.util.ArrayList;
 import java.util.List;

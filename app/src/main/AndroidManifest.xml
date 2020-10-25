@@ -10,16 +10,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
-        android:usesCleartextTraffic="true"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".HomeActivity"></activity>
-        <activity android:name=".AddQuizActivity" />
-        <activity android:name=".DownloadActivity" />
-        <activity android:name=".SetQuestionsActivity" />
-        <activity android:name=".AutomataSimulatorActivity" />
-        <activity android:name=".QuizActivity" />
-        <activity android:name=".ChatActivity" />
-        <activity android:name=".SettingsActivity" />
+        <activity android:name=".views.activities.HomeActivity"/>
+        <activity android:name=".views.activities.AddQuizActivity" />
+        <activity android:name=".views.activities.DownloadActivity" />
+        <activity android:name=".views.activities.SetQuestionsActivity" />
+        <activity android:name=".views.activities.QuizActivity" />
+        <activity android:name=".views.activities.ChatActivity" />
+        <activity android:name=".views.activities.SettingsActivity" />
         <activity android:name=".ScoreDetail" />
         <activity android:name=".Done" />
         <activity android:name=".Playing" />
@@ -36,13 +34,13 @@
             </intent-filter>
         </service>
         -->
-        <activity android:name=".ChatroomActivity" />
+        <activity android:name=".views.activities.ChatroomActivity" />
         <activity
-            android:name=".ClassroomActivity"
+            android:name=".views.activities.ClassroomActivity"
             android:label="ClassRoom"
             android:theme="@style/AppTheme.CustomActionBar" />
-        <activity android:name=".SignUpActivity" />
-        <activity android:name=".LoginActivity">
+        <activity android:name=".views.activities.SignUpActivity" />
+        <activity android:name=".views.activities.LoginActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:layout_margin="@dimen/fab_margin"
     android:layout_height="match_parent"
-    tools:context=".AddQuizActivity">
+    tools:context=".views.activities.AddQuizActivity">
 <TextView
     android:textAlignment="center"
     android:layout_width="match_parent"

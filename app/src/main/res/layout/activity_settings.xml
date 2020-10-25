@@ -6,7 +6,7 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     android:padding="16dp"
-    tools:context=".SettingsActivity">
+    tools:context=".views.activities.SettingsActivity">
 
     <TextView
         android:layout_width="match_parent"

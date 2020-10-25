@@ -12,7 +12,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.smis.models.QuestionScore;
+import com.smis.data.QuestionScore;
+import com.smis.views.activities.QuizActivity;
 
 public class Done extends AppCompatActivity {
     Button btnTryAgain;
