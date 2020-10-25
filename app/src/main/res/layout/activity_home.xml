@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/home"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="64dp"
+        android:orientation="vertical"
+        tools:context=".HomeActivity">
+
+        <Button
+            android:id="@+id/classroomBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_background"
+            android:padding="8dp"
+            android:text="@string/classroom"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/quizBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_background"
+            android:padding="8dp"
+            android:text="@string/quiz"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/chatBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_background"
+            android:padding="8dp"
+            android:text="@string/chat"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/automataBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_background"
+            android:padding="8dp"
+            android:text="@string/automata_simulator"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/settingsBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_background"
+            android:padding="8dp"
+            android:text="Settings"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/signOutBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="16dp"
+            android:background="@drawable/btn_background"
+            android:padding="8dp"
+            android:text="Sign Out"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+
+</ScrollView>
